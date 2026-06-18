@@ -1,0 +1,2 @@
+ŞİFRE = batu
+parola = 7474

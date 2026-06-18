@@ -1,0 +1,11 @@
+cd C:\Users\Kullanıcı_Adi\Desktop\2
+
+dotnet ef database update
+
+dotnet restore
+
+dotnet build
+
+dotnet run --project kutuphane\kutuphane.csproj
+
+sqlcmd -S .\SQLEXPRESS -E -i kutuphane\create_database.sql
